@@ -1,8 +1,30 @@
 .body {
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
+  font-family: Roboto, sans-serif;
   color: #434455;
-  letter-spacing: 0.02em;
+  font-size: 16px;
+}
+.list {
+  list-style-type: none;
+}
+.lists {
+  list-style-type: none;
+}
+.example {
+  list-style-type: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .logo {
   color: #2e2f42;
@@ -12,13 +34,13 @@
   line-height: 1.34;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  text-decoration: none;
 }
 
 /*site-nav*/
 .site-nav .list {
   color: #2e2f42;
   font-weight: 600;
-  font-size: 16px;
   line-height: 1.5;
 }
 
@@ -26,24 +48,30 @@
 .site-nav .link:focus {
   color: #4d5ae5;
 }
+.site-nav .link {
+  text-decoration: none;
+}
 
 /*auth-nav*/
 .auth-nav .link {
-  font-size: 16px;
+  list-style-type: none;
   line-height: 1.5;
+  text-decoration: none;
 }
 .auth-nav .tel {
-  font-size: 16px;
   line-height: 1.5;
+  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
   color: #2e2f42;
 }
 /* hero*/
+.hero {
+  background-color: #2e2f42;
+}
 .hero-title {
   color: #ffffff;
-  background-color: #2e2f42;
   font-weight: 600;
   font-size: 56px;
   line-height: 1.1;
@@ -54,7 +82,7 @@
   color: #ffffff;
   border: #4d5ae5;
   font-weight: 500;
-  font-size: 16px;
+  font-family: in;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -72,7 +100,6 @@
   line-height: 1.2;
 }
 .info > p {
-  font-size: 16px;
   line-height: 1.5;
 }
 /* photo */
@@ -98,7 +125,6 @@
   line-height: 1.2;
 }
 .team > p {
-  font-size: 16px;
   line-height: 1.5;
 }
 .down {
@@ -112,7 +138,7 @@
 }
 .down p {
   color: #e7e9fc;
-  font-size: 16px;
+
   line-height: 1.5;
 }
 .down-logo:hover,
@@ -129,7 +155,7 @@
   cursor: pointer;
   border: #e7e9fc;
   font-weight: 600;
-  font-size: 16px;
+  font-family: inherit;
   line-height: 1.5;
   letter-spacing: 0.04em;
 }
@@ -147,6 +173,5 @@
 }
 
 .examples > p {
-  font-size: 16px;
   line-height: 1.5;
 }
