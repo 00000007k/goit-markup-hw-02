@@ -1,8 +1,24 @@
+/* logo - #4D5AE5
+          #2E2F42
+   шапка - #2E2F42
+           #4D5AE5
+  кнопки - #FFFFFF
+          #4D5AE5
+  hero - #2E2F42
+  основной текст - #434455
+  h - #2E2F42
+  footer - #E7E9FC
+  #2E2F42
+*/
+
 body {
   background-color: #ffffff;
   font-family: Roboto, sans-serif;
   color: #434455;
   font-size: 16px;
+}
+.down-logo {
+  text-decoration: none;
 }
 .list {
   list-style-type: none;
@@ -36,6 +52,9 @@ body {
   text-transform: uppercase;
   text-decoration: none;
 }
+.colortext {
+  color: #4d5ae5;
+}
 
 /*site-nav*/
 .site-nav .list {
@@ -50,21 +69,30 @@ body {
 }
 .site-nav .link {
   text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
 }
 
 /*auth-nav*/
 .auth-nav .link {
-  list-style-type: none;
   line-height: 1.5;
   text-decoration: none;
+  color: #434455;
 }
 .auth-nav .tel {
   line-height: 1.5;
   text-decoration: none;
+  color: #434455;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
-  color: #2e2f42;
+  color: #4d5ae5;
+}
+.auth-nav .tel:hover,
+.auth-nav .tel:focus {
+  color: #4d5ae5;
 }
 /* hero*/
 .hero {
@@ -81,8 +109,9 @@ body {
   background-color: #4d5ae5;
   color: #ffffff;
   border: #4d5ae5;
-  font-weight: 500;
+  font-weight: 600;
   font-family: in;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
@@ -90,7 +119,7 @@ body {
 }
 .hero .button:hover,
 .hero .button:focus {
-  color: #2e2f42;
+  background-color: #434455;
 }
 /* info */
 
@@ -112,12 +141,14 @@ body {
   text-align: center;
 }
 /* team */
+.team {
+  background-color: #f4f4fd;
+}
 .team-titles {
   color: #2e2f42;
   font-weight: 600;
   font-size: 36px;
   line-height: 1.1;
-  background-color: #f4f4fd;
 }
 .team > h3 {
   color: #2e2f42;
@@ -152,13 +183,17 @@ body {
 /* portfolio- button*/
 .gallery-link {
   color: #4d5ae5;
+
   background-color: #f4f4fd;
   cursor: pointer;
   border: #e7e9fc;
   font-weight: 600;
   font-family: inherit;
+  font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
+  border-radius: 4px;
+  padding: 8px 16px;
 }
 .gallery-link:hover,
 .gallery-link:focus {
