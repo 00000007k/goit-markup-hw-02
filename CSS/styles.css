@@ -29,7 +29,9 @@ body {
 .example {
   list-style-type: none;
 }
-
+.example a {
+  text-decoration: none;
+}
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -69,7 +71,7 @@ body {
 }
 .site-nav .link {
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   color: #2e2f42;
@@ -86,14 +88,7 @@ body {
   text-decoration: none;
   color: #434455;
 }
-.auth-nav .link:hover,
-.auth-nav .link:focus {
-  color: #4d5ae5;
-}
-.auth-nav .tel:hover,
-.auth-nav .tel:focus {
-  color: #4d5ae5;
-}
+
 /* hero*/
 .hero {
   background-color: #2e2f42;
@@ -119,7 +114,7 @@ body {
 }
 .hero .button:hover,
 .hero .button:focus {
-  background-color: #434455;
+  background-color: #2e2f42;
 }
 /* info */
 
@@ -164,6 +159,7 @@ body {
 }
 .down-logo {
   color: #f4f4fd;
+  font-family: "Raleway";
   font-weight: 800;
   font-size: 18px;
   line-height: 1.2;
@@ -172,10 +168,6 @@ body {
   color: #e7e9fc;
 
   line-height: 1.5;
-}
-.down-logo:hover,
-.down-logo:focus {
-  color: #4d5ae5;
 }
 
 /* portfolio*/
@@ -200,13 +192,14 @@ body {
   background-color: #4d5ae5;
 }
 
-.examples-titles {
+.example-titles {
   font-weight: 600;
   font-size: 20px;
   line-height: 1.2;
   color: #2e2f42;
 }
 
-.examples > p {
+.example a {
   line-height: 1.5;
+  color: #434455;
 }
